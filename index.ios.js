@@ -11,11 +11,13 @@ import {
   Text,
   View
 } from 'react-native';
+import MapView from './src/MapView'
 
 export default class NativeUIComponents extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <MapView style={{flex: 1}} />
         <Text style={styles.welcome}>
           Welcome to React Native!
         </Text>
